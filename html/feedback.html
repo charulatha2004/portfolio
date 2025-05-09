@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback👍👎Page</title>
+    <link rel="stylesheet" href="../css/feedback.css">
+    <style>
+     body{
+   background-image: url(/images/download\ \(2\).jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="icons">
+            <div class="i5">
+                <a href="../index.html"><img src="/images/home_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="Home" height="40px" width="40px" title="Home" class="pic"></a>
+             </div>
+            <div class="i1">
+                <a href="about.html"><img src="/images/person_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="About Me" height="40px" width="40px" title="About Me" class="pic"></a>
+            </div>
+            <div class="i2">
+                <a href="profile.html"><img src="/images/contact_page_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="Profile" height="40px" width="40px" title="Profile" class="pic"></a>    
+            </div>
+            <div class="i3">
+                <a href="interests.html"><img src="/images/interests_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="Interests"  height="40px" width="40px" title="Interests" class="pic"></a>
+            </div>
+            <div class="i4">
+                <a href="calendar.html"><img src="/images/calendar_month_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="calendar" height="40px" width="40px" title="Calendar" class="pic"></a>
+            </div>
+            <div class="i6">
+                <a href="map.html"><img src="/images/location_on_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="Map" height="40px" width="40px" title="Map" class="pic"></a>
+            </div>
+            <div class="i7">
+                <a href="contact.html"><img src="/images/mail_24dp_EECD00_FILL0_wght400_GRAD0_opsz24.png" alt="Contact" height="40px" width="40px" title="Contact" class="pic"></a>
+            </div>
+        </div>
+
+        
+        <div class="container">
+          <h1>Feedback Form</h1>
+          <p style="color: #eecd00;">I would love to hear your thoughts, suggestions, concerns or problems with anything so I can improve!</p><br>
+          <form id="feedbackForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="1" max="120">
+            </div>
+        
+            <div class="form-group">
+              <label for="experience">How was your overall experience?</label>
+              <select id="experience" name="experience" required>
+                <option >Select an option</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+              </select>
+            </div>
+        
+            <div class="form-group">
+              <label for="improvement">What can we improve?</label>
+              <textarea id="improvement" name="improvement" rows="4"></textarea>
+            </div>
+        
+            <div class="form-group">
+              <label for="favorite">What did you like the most about our website?</label>
+              <textarea id="favorite" name="favorite" rows="3"></textarea>
+            </div>
+        
+            <div class="form-group">
+              <label>Rate our Website:</label>
+              <div class="rating">
+                <input type="radio" name="rating" id="star5" value="5" required><label for="star5">&#9733;</label>
+                <input type="radio" name="rating" id="star4" value="4"><label for="star4">&#9733;</label>
+                <input type="radio" name="rating" id="star3" value="3"><label for="star3">&#9733;</label>
+                <input type="radio" name="rating" id="star2" value="2"><label for="star2">&#9733;</label>
+                <input type="radio" name="rating" id="star1" value="1"><label for="star1">&#9733;</label>
+              </div>
+            </div>
+        
+            <button type="submit">Submit Feedback</button>
+          </form>
+        
+          <div id="thankYouMessage" style="display: none;">
+            <h2 style="margin-bottom: 50px;">Thank you for your feedback!</h2>
+            <img src="/images/thumb_up_50dp_EECD00_FILL0_wght400_GRAD0_opsz48.png" height="300px" width="300px">
+          </div>
+        </div>
+        
+        
+        <script src="../js/feedback.js">
+        </script>
+        
+    </div>
+</body>
+</html>

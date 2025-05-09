@@ -1,0 +1,86 @@
+.grid-container{
+    width: 900px;
+    margin-left: 200px;
+ }
+
+
+  body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.cad1{
+    border-style: solid;
+    border-color: #EECD00;
+    box-shadow: 2px 2px 25px #EECD00;
+    border-radius: 100px 0px 100px 0px;
+    margin: 50px;
+    height: 500px;
+}
+
+.img1{
+  margin: 50px;
+  margin-left: 200px;
+}
+
+
+.icons{
+  display: inline-block;
+  position: relative;
+  top: -500px;
+  right: -3.2%;
+  gap: 40px;
+  background-image: url(/images/download\ \(2\).jpeg);
+  border-radius: 90px;
+}
+
+
+.i1, .i2, .i3, .i4, .i5, .i6, .i7{
+  border-style: solid;
+  border-radius: 50px;
+  background-image: url(/images/download\ \(2\).jpeg);
+  border-color: #EECD00;
+  width: 40px;
+  height: 40px;
+  align-content: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  }
+
+  
+.i1:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+.i2:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+.i3:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+.i4:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+.i5:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+.i6:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+.i7:hover{
+box-shadow: 5px 5px 25px #eecd00;
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+

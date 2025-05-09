@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  width: 90%;
+  margin-left: 10%;
+}
+
+
+.main-content {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-section, .middle-section, .bottom-section {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #222629;
+  border-radius: 15px;
+  padding: 15px;
+  flex: 1;
+}
+.card:hover{
+  box-shadow:  0px 2px 15px #eecd00;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.skills, .interests, .Tech {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #eecd00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  font-weight: bold;
+  color: #222629;
+}
+
+.c1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.c2{
+  background-color: rgb(63, 63, 63);
+  width: 150px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.p1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.p2{
+  background-color: rgb(63, 63, 63);
+  width: 130px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.h1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.h2{
+  background-color: rgb(63, 63, 63);
+  width: 180px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.cs1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.cs2{
+  background-color: rgb(63, 63, 63);
+  width: 160px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.j1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.j2{
+  background-color: rgb(63, 63, 63);
+  width: 30px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.t1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.t2{
+  background-color: rgb(63, 63, 63);
+  width: 190px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.e1{
+  width: 200px;
+  height: 10px;
+  background-color: #eecd00;
+  border-radius: 20px;
+}
+
+.e2{
+  background-color: rgb(63, 63, 63);
+  width: 150px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+@font-face {
+  font-family: 'dancing';
+  src: url(/images/DancingScript-VariableFont_wght.ttf);
+}
+
+.profile-side {
+  background: #222629;
+  width: 300px;
+  height: 630px;
+  margin-top: 10px;
+  padding: 20px;
+  border-left: 2px solid #eecd00;
+  border-radius: 20px;
+}
+.profile-side:hover{
+  box-shadow: 0px 2px 10px #eecd00;
+}
+
+.profile-side .profile-detail {
+  text-align: center;
+}
+
+.profile-side img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+strong{
+  color: #eecd00;
+  font-family: 'dancing';
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.profile-side h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #eecd00;
+  font-family: 'dancing';
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.card h3{
+  color: #eecd00;
+  font-family: 'dancing';
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+
+.guide {
+  margin-top: 25px;
+  background: #eecd00;
+  color: #222629;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+.guide:hover{
+  box-shadow: 0px 4px 10px #eecd00;
+}
+
+
+.icons{
+  display: inline-block;
+  position: relative;
+  top: 75px;
+  left: -5%;
+  background-image: url(images/download\ \(2\).jpeg);
+  border-radius: 20px;
+  height: 450px;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6, .i7{
+border-style: solid;
+border-radius: 50px;
+background-image: url(images/download\ \(2\).jpeg);
+border-color: #eecd00;
+width: 45px;
+height: 45px;
+align-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.i1:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i2:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i3:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i4:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i5:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i6:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i7:hover{
+  box-shadow: 5px 5px 20px #eecd00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}

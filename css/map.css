@@ -1,0 +1,89 @@
+.grid{
+    display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+
+
+.icons{
+  display: block;
+  position: relative;
+  right: -117%;
+  top: 50px;
+  width: 50px;
+  height: 550px;
+  align-content: center;
+  background-image: url(images/download\ \(2\).jpeg);
+  border-radius: 20px;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6, .i7{
+border-style: solid;
+border-radius: 50px;
+background-color: black;
+border-color: #EECD00;
+width: 40px;
+height: 40px;
+align-content: center;
+margin-bottom: 20px;
+}
+
+.i1:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i2:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i3:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i4:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i5:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i6:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+.i7:hover{
+  box-shadow: 5px 5px 25px #EECD00;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+
+
+
+
+.google-maps iframe {
+
+  position: relative;
+  top: -30px;
+  margin: 45px;
+  width: 700px;
+  height: 600px;
+  }
+
+  .google-maps{
+    width: 1000px;
+    height: 630px;
+    border-color: #EECD00;
+    border-style: solid;
+    border-radius: 50px;
+    box-shadow: 3px 3px 50px #EECD00 inset;
+    
+  }
+
